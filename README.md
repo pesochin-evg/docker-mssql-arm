@@ -26,10 +26,13 @@ Configured docker container for running mssql on apple silicon
 1. Open in any text editor file *./Docker/docker-compose.yaml*
 2. Update `SA_PASSWORD=YourStrongPassw0rd` with your own password (like `SA_PASSWORD=MyNewAwesomePassw0rd`)
 
-## Start / Stop docker compose container
+## Start / Stop container
 
-Stop container: ` docker-compose -f ./Docker/docker-compose.yaml down `
+Stop container: ` docker-compose -f ./Docker/docker-compose.yaml stop `
 
-Start container: ` docker-compose -f ./Docker/docker-compose.yaml up -d `
+Start container: ` docker-compose -f ./Docker/docker-compose.yaml start `
 
 **NOTE:** using this two command will **not** erase data from db
+
+## Removing
+Remove container: ` docker-compose -f ./Docker/docker-compose.yaml down `
