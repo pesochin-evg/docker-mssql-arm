@@ -1,0 +1,17 @@
+version: '3.9'
+
+services:
+  mssql:
+    build: 
+      context: .
+    container_name: mssql
+    environment:
+      - ACCEPT_EULA=Y
+      - SA_PASSWORD=YourStrongPassw0rd
+    ports:
+      - 1433:1433
+    volumes:
+      - mssql:/var/opt/mssql
+
+volumes:
+  mssql:
