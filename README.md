@@ -1,6 +1,8 @@
 # docker-mssql-arm
 
-Configured docker container for running mssql on apple silicon
+Configured docker container for running mssql on Apple Silicon
+
+Also downloads AdventureWorks2017 and integrates it inside docker container automatically
 
 ## Prerequisites
 
