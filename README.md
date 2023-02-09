@@ -28,6 +28,7 @@ Also downloads AdventureWorks2017 and integrates it inside docker container auto
 1. Open in any text editor file *./Docker/docker-compose.yaml*
 2. Update `SA_PASSWORD=YourStrongPassw0rd` with your own password (like `SA_PASSWORD=MyNewAwesomePassw0rd`)
 
+> The password must be at least 8 characters long and contain characters from three of the following four sets: Uppercase letters, Lowercase letters, Base 10 digits, and Symbols
 ## Start / Stop container
 
 Stop container: ` docker-compose -f ./Docker/docker-compose.yaml stop `
