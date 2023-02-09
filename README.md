@@ -15,7 +15,7 @@ Also may download AdventureWorks2017 and integrate it inside docker container au
 4. **Rosetta 2**
     - sometimes need to be installed with (` $ softwareupdate --install-rosetta `) command
 
-> Skip step 3 and 4, if you are using Intel 
+> Skip step 3 and 4, if you are using Intel
 
 ## Building and running
 
@@ -32,6 +32,7 @@ Also may download AdventureWorks2017 and integrate it inside docker container au
 2. Update `SA_PASSWORD=YourStrongPassw0rd` with your own password (like `SA_PASSWORD=MyNewAwesomePassw0rd`)
 
 > The password must be at least 8 characters long and contain characters from three of the following four sets: Uppercase letters, Lowercase letters, Base 10 digits, and Symbols
+
 ## Start / Stop container
 
 Stop container: ` docker-compose -f ./Docker/docker-compose.yaml stop `
@@ -41,4 +42,5 @@ Start container: ` docker-compose -f ./Docker/docker-compose.yaml start `
 **NOTE:** using this two command will **not** erase data from db
 
 ## Removing
+
 Remove container: ` docker-compose -f ./Docker/docker-compose.yaml down `
