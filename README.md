@@ -9,7 +9,7 @@ Also may download AdventureWorks2017 and integrate it inside docker container au
 1. **Docker**
     1. Download from [official site](https://www.docker.com)
     2. Go to *Settings -> Features in development -> Use Rosetta for x86/amd64 emulation on Apple Silicon*
-2. **wget**
+2. **wget** ( only if downloading AdventureWorks2017 )
     - run (` $ brew install wget `) if you are using homebrew
 3. **MacOS Venture for Rosetta 2 support**
 4. **Rosetta 2**
