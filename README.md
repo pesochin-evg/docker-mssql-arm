@@ -2,7 +2,7 @@
 
 Configured docker container for running mssql on Apple Silicon (Intel is also supported)
 
-Also downloads AdventureWorks2017 and integrates it inside docker container automatically
+Also may download AdventureWorks2017 and integrate it inside docker container automatically
 
 ## Prerequisites
 
@@ -20,6 +20,7 @@ Also downloads AdventureWorks2017 and integrates it inside docker container auto
 ## Building and running
 
 1. Clone this repository and run (` $ ./build.sh `)
+    - You could optianaly download AdventureWorks2017
 2. Using any database client (e.g. DataGrip) connect to database
     - Port: 1433
     - User: sa
