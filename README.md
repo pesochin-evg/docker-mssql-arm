@@ -1,19 +1,21 @@
 # docker-mssql-arm
 
-Configured docker container for running mssql on Apple Silicon
+Configured docker container for running mssql on Apple Silicon (Intel is also supported)
 
 Also downloads AdventureWorks2017 and integrates it inside docker container automatically
 
 ## Prerequisites
 
-1. **MacOS Venture for Rosetta 2 support**
-2. **Docker**
+1. **Docker**
     1. Download from [official site](https://www.docker.com)
     2. Go to *Settings -> Features in development -> Use Rosetta for x86/amd64 emulation on Apple Silicon*
-3. **wget**
+2. **wget**
     - run (` $ brew install wget `) if you are using homebrew
+3. **MacOS Venture for Rosetta 2 support**
 4. **Rosetta 2**
     - sometimes need to be installed with (` $ softwareupdate --install-rosetta `) command
+
+> Skip step 3 and 4, if you are using Intel 
 
 ## Building and running
 
